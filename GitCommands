@@ -18,3 +18,12 @@ git remote add origin https://github.com/desalehemant87/JenkinsPipeline.git
 
 # Push the code to specific branch of repository
 git push -u origin master
+
+# If you want to push files from other folder to existing repository , use following
+
+- git init
+- git pull https://github.com/desalehemant87/JenkinsPipeline.git
+- git add .
+- git commit -m "Comment"
+- git remote add origin https://github.com/desalehemant87/JenkinsPipeline.git
+- git push -u origin master
